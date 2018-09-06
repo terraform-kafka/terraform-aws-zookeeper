@@ -1,0 +1,10 @@
+tickTime=2000
+dataDir=/var/lib/zookeeper/
+clientPort=2181
+initLimit=5
+syncLimit=2
+server.1=${zk1}:2181:2181
+server.2=${zk2}:2181:2181
+server.3=${zk3}:2181:2181
+autopurge.snapRetainCount=3
+autopurge.purgeInterval=24
